@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.main{
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    
+}
+.text-part{
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-right: 11%;
+
+}
+.picture-part{
+    width: 50%;
+    background-image: url(/images/image-header-desktop.jpg); 
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section{
+    background-color: hsla(277, 51%, 50%, 0.53);
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1{
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.header{
+    color: hsl(0, 0%, 100%);
+}
+.insights{  
+    color: hsl(277, 64%, 61%);
+}
+.p1{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.fp{
+    position: relative;
+
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    
+    
+}
+h3{
+    color:hsl(0, 0%, 100%) ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    
+}
+.footer-main{
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    
+    
+}   
+@media screen and (max-width:375px) {  
+    .main{
+        flex-direction: column-reverse;
+        width: 90vw;
+        height: 90vh;
+        justify-content: center;
+    }
+
+    .footer-main{
+        flex-direction: column;
+        gap:30px;
+        margin-top: 0;
+        
+    }
+    .p1{
+        padding-top: 0;
+        
+
+    }
+    .text-part{
+      width: auto;
+      height: 70%;
+      text-align: center;
+      padding: 1.5rem;
+      padding-top: px;
+
+        
+    }
+    .picture-part{
+        width: auto;
+                border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                    border-bottom-right-radius: 0;
+
+    }
+    section{
+        height:200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0;
+    }
+h1{
+    font-size: 22px;
+}
+    
+
+    }
