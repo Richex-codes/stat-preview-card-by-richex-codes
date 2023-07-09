@@ -22,7 +22,7 @@ body{
 }
 .picture-part{
     width: 50%;
-    background-image: url(/images/image-header-desktop.jpg); 
+    background-image: url(images/image-header-desktop.jpg); 
     background-size: cover;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
